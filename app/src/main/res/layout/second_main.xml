@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.prabhat.q.MainActivity">
+
+    <EditText
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:ems="10"
+        android:background="#84a9e1"
+        android:textColor="#000"
+        android:hint="Enter Answer Here"
+        android:textSize="20sp"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:text="POST ANSWER"
+        android:textSize="20sp"
+        android:background="@color/colorAccent"
+        android:textAppearance="@android:style/TextAppearance.Theme.Dialog" />
+
+    <TextView
+        android:id="@+id/ques"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#000"
+        android:textColor="#f5f4f4"
+        android:textSize="20sp"
+        tools:text="Question" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/h1_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="#000"
+        />
+
+
+
+
+</LinearLayout>
